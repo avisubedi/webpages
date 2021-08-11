@@ -1,3 +1,4 @@
+	*//Hello thanks for checking source code*//
 	html{
 		scroll-behavior: smooth;
 	}
@@ -11,7 +12,7 @@
 		  position: sticky;
 		  padding-top: 0px;
           top: 0;
-          background-image:  linear-gradient(-90deg, green,blue, purple );
+          background-color: #000;
          
           margin-top: 0px;
           text-align: right;
@@ -34,10 +35,10 @@
         display: inline-block;
         color:#05386B 
 	}
-	 ::selection { background:#8EE48F;
-            color: #379683}
+   ::selection { background:#A56BE7;
+            color: #B1FF7D}
  .fot{
- 	
+ 	      posi
 		  padding-top: 0px;
           bottom: 0px;
           background-color: #000;
@@ -45,14 +46,61 @@
           margin-top: 0px;
           font-size: 14px;
  }
-.imagecon{
-	position: relative;
-	width: 320px;
-
-} 
+ 
 .image{
 	display: block;
 	width: 100%;
 	position: absolute;
 	height: 100%;
 }
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+    .image__img {
+    display: block;
+    width: 100%;
+}
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+.currentbody{
+		color: red;
+		background-color: yellow;
+	}
+ .bigtext{
+ 	font-size: 80px;
+           font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right,#cf23cf, #eedd44, #1854EE, #16F90B);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            text-align: center;}
+.bigtext1{
+ 	font-size: 80px;
+           font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right,#cf23cf, #08EEE6, #1854EE, #16F90B);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            text-align: left;}
